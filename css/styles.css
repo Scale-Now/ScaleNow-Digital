@@ -3394,7 +3394,7 @@ input:focus, select:focus, textarea:focus {
   z-index: 100;
   letter-spacing: -0.04em;
   transition: color 0.22s cubic-bezier(.4,0,.2,1);
-  mix-blend-mode: lighten;
+  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.55);
   pointer-events: none;
 
 }
@@ -3501,3 +3501,4 @@ input:focus, select:focus, textarea:focus {
     top: 7vw;
   }
 }
+
