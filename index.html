@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScaleNow — Digital solutions built to scale</title>
+  <link rel="canonical" href="https://yourdomain.com/">
+  <!-- Google Fonts (moved from CSS @import for performance) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="description" content="Digital solutions built to scale — websites, dashboards, and custom digital systems designed for clarity and growth.">
+  <meta name="theme-color" content="#0f0820">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animations.css">
+  <!-- Organization JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ScaleNow",
+    "url": "https://yourdomain.com/",
+    "logo": "https://yourdomain.com/logo.png",
+    "sameAs": [
+      "https://www.linkedin.com/",
+      "https://twitter.com/"
+    ]
+  }
+  </script>
+  <!-- Google Analytics 4 (replace G-XXXXXXXXXX with your measurement ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T23T4HNMGW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-T23T4HNMGW', { 'anonymize_ip': true });
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-main" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to content</a>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">Scale<span class="brand-accent">Now</span></div>
+      <div class="nav-right">
+        <ul class="nav-menu">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun-icon" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="2"/>
+            <path d="M10 2V4M10 16V18M18 10H16M4 10H2M15.657 4.343L14.243 5.757M5.757 14.243L4.343 15.657M15.657 15.657L14.243 14.243M5.757 5.757L4.343 4.343" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <svg class="moon-icon" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Overlay for mobile menu -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <!-- Mobile Menu (full-height, hierarchical) -->
+  <nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <a href="#services" class="primary">Services</a>
+      <a href="#work" class="primary">Work</a>
+
+      <div class="divider" aria-hidden="true"></div>
+
+      <a href="#approach" class="secondary">Approach</a>
+      <a href="#contact" class="secondary">Contact</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Digital solutions <span class="hero-accent">built to scale</span>.</h1>
+        <p class="hero-subtitle">We design and build websites, dashboards, and custom digital systems focused on clarity and growth.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+          <a href="#work" class="btn btn-secondary">View Our Work</a>
+        </div>
+      </div>
+      <div class="hero-image"></div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">What We Do</h2>
+      <p class="section-subtitle">Focused solutions designed around your specific needs.</p>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg aria-hidden="true" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3>Websites & Web Platforms</h3>
+          <p>Clean, functional websites designed for performance and usability.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <svg aria-hidden="true" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3v18h18"/>
+              <path d="M18 17V9M13 17V5M8 17v-3"/>
+            </svg>
+          </div>
+          <h3>Dashboards & Analytics</h3>
+          <p>Custom dashboards that turn data into clear, actionable insights.</p>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <svg aria-hidden="true" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>Custom Digital Solutions</h3>
+          <p>Tailored digital tools built around specific requirements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="work">
+    <div class="container">
+      <h2 class="section-title">Selected Work</h2>
+      <p class="section-subtitle">A selection of projects built with purpose and precision.</p>
+      
+      <div class="work-grid">
+        <div class="work-item">
+          <div class="work-image" style="background-image: url('e-com.jpeg')"></div>
+          <h3>E-Commerce Platform</h3>
+          <p>A clean, conversion-focused digital experience designed for clarity and trust.</p>
+        </div>
+        
+        <div class="work-item">
+          <div class="work-image" style="background-image: url('analytics.jpeg')"></div>
+          <h3>Analytics Dashboard</h3>
+          <p>Real-time insights delivered through an intuitive, purpose-built interface.</p>
+        </div>
+        
+        <div class="work-item">
+          <div class="work-image" style="background-image: url('saas.jpeg')"></div>
+          <h3>SaaS Platform</h3>
+          <p>Scalable web application built for growing teams and complex workflows.</p>
+        </div>
+        
+        <div class="work-item">
+          <div class="work-image" style="background-image: url('website.jpeg')"></div>
+          <h3>Corporate Website</h3>
+          <p>Modern brand presence focused on clarity, performance, and engagement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section id="approach" class="process">
+    <div class="container">
+      <h2 class="section-title">How We Work</h2>
+      <p class="section-subtitle">A simple, honest process focused on delivering results.</p>
+      
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-number">01</div>
+          <div class="step-icon">
+            <svg aria-hidden="true" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a10 10 0 0 1 7.94 16.06A10 10 0 0 1 2.94 5.94 10 10 0 0 1 12 2"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+          <h3>Understand</h3>
+          <p>We listen carefully to understand your requirements and goals.</p>
+        </div>
+        
+        <div class="process-step">
+          <div class="step-number">02</div>
+          <div class="step-icon">
+            <svg aria-hidden="true" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+              <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+              <path d="M2 2l7.586 7.586"/>
+              <circle cx="11" cy="11" r="2"/>
+            </svg>
+          </div>
+          <h3>Design</h3>
+          <p>We craft a clear solution tailored to your specific needs.</p>
+        </div>
+        
+        <div class="process-step">
+          <div class="step-number">03</div>
+          <div class="step-icon">
+            <svg aria-hidden="true" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <h3>Build & Deliver</h3>
+          <p>We develop and launch your solution with precision.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits">
+    <div class="container">
+      <div class="benefits-content">
+        <h2 class="section-title">Why ScaleNow</h2>
+        <p class="section-subtitle">We focus on what matters — building digital solutions that work for you and your users.</p>
+      </div>
+      
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h3>Clear Communication</h3>
+            <p>No jargon, no confusion — just straightforward conversations.</p>
+          </div>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <circle cx="12" cy="12" r="6"/>
+              <circle cx="12" cy="12" r="2"/>
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h3>Purpose-Driven Design</h3>
+            <p>Every decision serves a clear goal and user need.</p>
+          </div>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+              <polyline points="17 6 23 6 23 12"/>
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h3>Scalable Solutions</h3>
+            <p>Built to grow with your requirements over time.</p>
+          </div>
+        </div>
+        
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"/>
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <h3>Simple & Honest Process</h3>
+            <p>Transparent timelines, realistic expectations, reliable delivery.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Have a requirement in mind?</h2>
+      <p>Let's discuss how we can help bring your ideas to life with clarity and purpose.</p>
+      <a href="#contact" class="btn btn-primary">Let's Talk</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-subtitle">Tell us what you're trying to build. We're here to help.</p>
+      
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" aria-describedby="name-error">
+            <span class="form-error" id="name-error" role="status" aria-live="polite" aria-atomic="true"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" inputmode="email" aria-describedby="email-error">
+            <span class="form-error" id="email-error" role="status" aria-live="polite" aria-atomic="true"></span>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your project or requirement..." aria-describedby="message-error"></textarea>
+          <span class="form-error" id="message-error" role="status" aria-live="polite" aria-atomic="true"></span>
+        </div>
+
+        <!-- Honeypot field for spam prevention (visually hidden) -->
+        <div style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
+          <label for="honey">Leave this field empty</label>
+          <input type="text" id="honey" name="honey" autocomplete="off" tabindex="-1">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">
+          Send Message
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+
+      <div id="form-success" role="status" aria-live="polite" aria-atomic="true" style="display:none; text-align:center; margin-top:1rem; color:var(--accent); font-weight:600;">Thank you — your message has been received. Our team will review it and respond within 1–2 business days.</div>
+      <div id="form-error-message" role="status" aria-live="polite" aria-atomic="true" style="display:none; text-align:center; margin-top:1rem; color:#ff6b6b; font-weight:600;">Please fix the errors and try again.</div>
+
+      <div class="contact-alternative">
+        <p>Prefer email? Reach us directly at</p>
+        <a href="mailto:scalenow142@gmail.com">scalenow142@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <div class="footer-brand">
+            <h3>Scale<span class="brand-accent">Now</span></h3>
+            <p>Digital solutions built with clarity.</p>
+          </div>
+          </div>
+
+
+        <div class="footer-center">
+          <h4 class="footer-nav-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#approach">Approach</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-right">
+          <h4 class="footer-nav-title">Information</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-socials">
+          <h4 class="footer-nav-title">Connect</h4>
+          <ul class="footer-links footer-social-links">
+            <li><a href="mailto:scalenow142@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://wa.me/1234567890" target="_blank" rel="noopener">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 ScaleNow. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
